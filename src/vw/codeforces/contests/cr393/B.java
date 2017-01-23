@@ -21,14 +21,35 @@ public class B {
 		int m = in.nextInt();
 		int k = in.nextInt();
 
-		int[] arr = new int[n+1];
-		for (int i = 1; i < k; i++) {
-			arr[i] = (i-1) + 1;
+		int[] arr = new int[n + 1];
+		for (int i = 1; i <= k; i++) {
+			arr[i] = (i - 1) + 1;
 		}
-		for (int i = n - 1; i >= k; i--) {
-			arr[i] = ((n - 1) - i) + 1;
+		for (int i = k + 1; i <= n; i++) {
+			arr[i] = arr[i - 1] - 1;
 		}
 		System.out.println(Arrays.toString(arr));
 	}
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
+
+
+
+
+
+
+
+
+
+
