@@ -1,7 +1,7 @@
 /**
  * 
  */
-package vw.codeforces.practice;
+package vw.codeforces.contests.cr4A;
 
 import java.util.Scanner;
 
